@@ -18,8 +18,8 @@ permissions:
   actions: write
 
 env:
-  REPO_URL: https://github.com/sdf8057/ipq6000.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/ruaabbit/qsdk.git
+  REPO_BRANCH: ipq60xx
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/zn-m2.config
   DIY_P1_SH: ./scripts/zn-m2/diy-part1.sh
