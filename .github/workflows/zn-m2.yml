@@ -177,6 +177,7 @@ jobs:
         files: |
          ${{ env.FIRMWARE }}/*.ubi
          ${{ env.FIRMWARE }}/*.bin
+         ${{ env.FIRMWARE }}/*.img
 
     - name: Delete releases and workflows runs
       uses: ophub/delete-releases-workflows@main
